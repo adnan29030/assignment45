@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 
 // Question No2 : 2.	Personal Message: 
 

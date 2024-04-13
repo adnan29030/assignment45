@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // -------------- Question No 3--------------------
 
 // --------------- make variable -------------------
@@ -27,7 +29,6 @@ else{
     alert("please fill your name !")
 
 }
-
 
 
 //------------------ out put Display on browser------------------ 

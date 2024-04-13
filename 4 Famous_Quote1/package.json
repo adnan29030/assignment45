@@ -1,15 +1,16 @@
 {
-  "name": "2-personnel-message",
+  "name": "4-famous_quote1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
+  "dependencies": {
+    "undici-types": "^5.26.5"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^20.11.19"
-  }
+  "license": "ISC"
 }

@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 "use strict";
 // -------------- Question No 3--------------------
 // --------------- make variable -------------------

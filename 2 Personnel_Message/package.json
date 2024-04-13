@@ -1,8 +1,10 @@
 {
-  "name": "2-personnel-message",
+  "name": "2-personnel_message",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
+  "bin": "indax.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +12,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.11.19"
+    "@types/node": "^20.12.7"
   }
 }

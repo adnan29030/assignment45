@@ -1,8 +1,11 @@
 {
   "name": "3-name_cases",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "indax.js",
+  "type": "module",
+  "bin": {
+    "3-name_cases": "indax.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +13,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.11.19"
-  }
+    "@types/node": "^20.12.7"
+  },
+  "dependencies": {
+    "undici-types": "^5.26.5"
+  },
+  "description": ""
 }
