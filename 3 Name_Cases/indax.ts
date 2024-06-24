@@ -2,10 +2,10 @@
 
 // -------------- Question No 3--------------------
 
-// --------------- make variable -------------------
+// --------------- Store A Person's Name in a Variable -------------------
 let personName : string =" ";
 
-// ----------------- input from viewer -------------
+// ----------------- When input from viewer -------------
 
 personName = prompt("what is your name")|| " ";
 
@@ -14,7 +14,7 @@ let lowercase : string = personName.toLowerCase();
 let uppercase : string = personName.toLocaleUpperCase();
 let titlecase : string = personName.split(" ").map(word=>word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join(" ")
 
-//-------------------apply if condition ---------------
+//-------------------Person’s Name in Lowercase, Uppercase, & Titlecase. ---------------
 
 if(personName !== null && personName !== " "){
     alert(`Hello ${personName}, here are your name in:
@@ -23,7 +23,7 @@ if(personName !== null && personName !== " "){
     LowerCase:${titlecase} `)
 }
 
-//---------------viewr not input -------------------
+//---------------When viewr not input -------------------
 
 else{
     alert("please fill your name !")
